@@ -1,0 +1,9 @@
+#sample
+#document/*.txt
+/node_modules/
+/dist/
+/mongodb/
+package-lock.json
+*.html
+*.css
+project.psd

@@ -1,0 +1,15 @@
+include ../mixins/mixins.pug
+header
+    .header__top
+        .header__logo
+            p mycompany
+        nav.header__menu
+            ul.header__list
+                +headerNavLink('', 'home')
+                +headerNavLink('', 'about')
+                +headerNavLink('', 'services')
+                +headerNavLink('', 'portfolio')
+                +headerNavLink('', 'testimonials')
+                +headerNavLink('', 'contact')
+                li.header__item
+                    a(href='')#menu.icon.header__link &#9776
